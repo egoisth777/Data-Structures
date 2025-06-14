@@ -1,3 +1,3 @@
-E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/dynamic_array.dir
-E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/ALL_BUILD.dir
-E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/ZERO_CHECK.dir
+E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/dynamic_array.dir
+E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/ALL_BUILD.dir
+E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/ZERO_CHECK.dir

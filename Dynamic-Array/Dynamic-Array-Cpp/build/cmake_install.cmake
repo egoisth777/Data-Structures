@@ -1,8 +1,8 @@
-# Install script for directory: E:/repos/Code/Data-Structures/Dynamic-Array
+# Install script for directory: E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/dynamic_array")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/repos/Code/Data-Structures/Dynamic-Array/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

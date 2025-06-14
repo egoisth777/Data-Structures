@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\9cbcbb68001b1aec985ea580beacb193\generate.stamp.rule">
+    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\146f3d3c03eec94a9db05e75e94776a0\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{FF020FA2-F11B-3392-AB66-2C43B1398466}</UniqueIdentifier>
+      <UniqueIdentifier>{41E648FB-6A4E-3EDC-8AD6-5A011293EA1A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

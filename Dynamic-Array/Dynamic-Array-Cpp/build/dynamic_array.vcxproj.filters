@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\repos\Code\Data-Structures\Dynamic-Array\main.cpp">
+    <ClCompile Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\CMakeLists.txt" />
+    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D8F90905-1B79-3A2D-AF29-9B39902C8483}</UniqueIdentifier>
+      <UniqueIdentifier>{C36381BF-B3F9-3D49-B929-746C82239497}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

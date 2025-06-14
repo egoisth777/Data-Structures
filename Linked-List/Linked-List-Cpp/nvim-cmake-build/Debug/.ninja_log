@@ -1,0 +1,4 @@
+# ninja log v6
+1	28	7713971813796488	clean	e8e407a994324ac6
+5	358	7714700304645134	CMakeFiles/sinlgy_linked_list.dir/singlell_test.cpp.obj	a011e819432f566a
+359	502	7714700308186739	sinlgy_linked_list.exe	21b237a37239f72c

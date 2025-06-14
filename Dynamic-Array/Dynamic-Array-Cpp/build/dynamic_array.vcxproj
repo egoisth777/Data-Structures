@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1E0ABBBB-B732-39F1-B3D2-2671D5F66244}</ProjectGuid>
+    <ProjectGuid>{343961AA-732D-3213-BC12-8F7DDA9CA7FA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dynamic_array.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dynamic_array</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dynamic_array.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dynamic_array</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dynamic_array.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dynamic_array</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dynamic_array.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dynamic_array</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -119,8 +119,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/build/Debug/dynamic_array.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/build/Debug/dynamic_array.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/Debug/dynamic_array.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/Debug/dynamic_array.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -162,8 +162,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/build/Release/dynamic_array.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/build/Release/dynamic_array.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/Release/dynamic_array.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/Release/dynamic_array.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/build/MinSizeRel/dynamic_array.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/build/MinSizeRel/dynamic_array.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/MinSizeRel/dynamic_array.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/MinSizeRel/dynamic_array.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -247,8 +247,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/build/RelWithDebInfo/dynamic_array.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/build/RelWithDebInfo/dynamic_array.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/RelWithDebInfo/dynamic_array.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/RelWithDebInfo/dynamic_array.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\CMakeLists.txt">
+    <CustomBuild Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array -BE:/repos/Code/Data-Structures/Dynamic-Array/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/generate.stamp
+E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp -BE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array -BE:/repos/Code/Data-Structures/Dynamic-Array/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/generate.stamp
+E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp -BE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array -BE:/repos/Code/Data-Structures/Dynamic-Array/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/generate.stamp
+E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp -BE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array -BE:/repos/Code/Data-Structures/Dynamic-Array/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/build/CMakeFiles/generate.stamp
+E:\dev\BuildTools\CMake\bin\cmake.exe -SE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp -BE:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build --check-stamp-file E:/repos/Code/Data-Structures/Dynamic-Array/Dynamic-Array-Cpp/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,17 +307,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;E:\dev\BuildTools\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\3.29.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\repos\Code\Data-Structures\Dynamic-Array\main.cpp" />
+    <ClCompile Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\repos\Code\Data-Structures\Dynamic-Array\build\ZERO_CHECK.vcxproj">
-      <Project>{931F842F-B76F-3469-9D84-62E6CC5C1DFC}</Project>
+    <ProjectReference Include="E:\repos\Code\Data-Structures\Dynamic-Array\Dynamic-Array-Cpp\build\ZERO_CHECK.vcxproj">
+      <Project>{76FB78D5-3B6C-3A25-91A3-9F060A05E177}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

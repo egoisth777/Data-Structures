@@ -1,14 +1,16 @@
-cmake_minimum_required(3.27)
+cmake_minimum_required(VERSION 3.27)
 
-CMAKE_CXX_STANDARD(17)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project(linked_list)
 
-add_executable( sinlgy_linked_list
-    singlyll_test.cpp
+add_executable(
+    sinlgy_linked_list
+    singlell_test.cpp
 )
-add_executable( doubly_linked_list
-    doublyll_test.cpp
-)
+
+
+
 
 
