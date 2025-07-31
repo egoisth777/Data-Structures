@@ -1,3 +1,0 @@
-E:/repos/Code/Data-Structures/Linked-List/Linked-List-Cpp/build/CMakeFiles/sinlgy_linked_list.dir
-E:/repos/Code/Data-Structures/Linked-List/Linked-List-Cpp/build/CMakeFiles/ALL_BUILD.dir
-E:/repos/Code/Data-Structures/Linked-List/Linked-List-Cpp/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+E:/repos/Code/Data-Structures/Linked-List/D-Linked-List-Cpp/nvim-cmake-build/Debug/CMakeFiles/test-doublell.dir
+E:/repos/Code/Data-Structures/Linked-List/D-Linked-List-Cpp/nvim-cmake-build/Debug/CMakeFiles/edit_cache.dir
+E:/repos/Code/Data-Structures/Linked-List/D-Linked-List-Cpp/nvim-cmake-build/Debug/CMakeFiles/rebuild_cache.dir

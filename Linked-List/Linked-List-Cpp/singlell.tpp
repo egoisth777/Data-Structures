@@ -55,9 +55,6 @@ template <typename T> SinglyLinkedList<T>::~SinglyLinkedList()
 {}
 
 
-// Operators
-//  Assignment Operators
-// Copy Assignment Operators
 template <typename T>
 SinglyLinkedList<T> &
 SinglyLinkedList<T>::operator=(SinglyLinkedList<T> &other) // Move Assignment operator
@@ -97,7 +94,7 @@ SinglyLinkedList<T>::operator=(SinglyLinkedList<T> &&other)
 }
 
 
-// Add elements to the array
+// Add elements to the list
 template <typename T> bool SinglyLinkedList<T>::AddLast(T t)
 {
     // find the last element
@@ -302,6 +299,7 @@ template <typename T> bool SinglyLinkedList<T>::IsEmpty() const
 /**
  * Custom printing fucntion
  */
+
 template <typename T> std::ostream &operator<<(std::ostream &os, SinglyLinkedList<T> &list)
 {
     if (list.getSize() == 0)

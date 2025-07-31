@@ -1,10 +1,10 @@
 #ifndef SINGLELL_H
 #define SINGLELL_H
+
 #include <iostream>
 #include <memory>
 #include <optional>
 
-// Stores the Type T in the Container
 template <typename T> class SinglyLinkedList
 {
   private:
@@ -17,7 +17,7 @@ template <typename T> class SinglyLinkedList
     };
 
     std::unique_ptr<ListNode> mp_head; // A Pointer to the head of the List
-    ListNode *mp_tail;                 // A Pointer to the End of the List
+    ListNode* mp_tail;                 // A Pointer to the End of the List
     size_t m_size;
 
   public:

@@ -1,7 +1,7 @@
-#include <iostream>
 #include "doublell.hpp"
 
-int main()
+int
+main ()
 {
-    std::cout << "Hello World" << std::endl;
+    
 }

@@ -1,0 +1,8 @@
+# This is the corrected content for your .clangd file
+
+If:
+  PathMatch: .*\.tpp
+
+CompileFlags:
+  # The second argument needs to be in quotes
+  Add: [-include, "${FileDir}/${FileBasename}.hpp"]
