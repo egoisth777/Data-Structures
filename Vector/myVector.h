@@ -48,7 +48,7 @@ template <typename T, int N> class MyVector
 
   protected:
     T *pArr;                 // container that actually stores the data (A pointer to typename T)
-    unsigned int m_size;     // size that keeps track of the inner container size (How many elements are stored)
+    unsigned int m_size;     // size that keeps track of the inner container size (How many elements are stored)sdf
     unsigned int m_max_size; // use to track the max size of the current array
 };
 #endif // VECTOR_MYVECTOR_H

@@ -1,9 +1,8 @@
 [
   {
-    "name": "Clang 20 and Ninja",
+    "name": "CLang20 + Ninja",
 
     "generator": "Ninja",
-
     "compilers": {
       "C": "C:\\Program Files\\LLVM\\bin\\clang.exe",
       "CXX": "C:\\Program Files\\LLVM\\bin\\clang++.exe"
